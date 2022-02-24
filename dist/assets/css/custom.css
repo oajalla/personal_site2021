@@ -50,9 +50,10 @@
 
 
 
-
-
   /* Portrait images mobile  */
+
+  
+
 
 @media screen and (max-width: 1024px){
     
@@ -69,11 +70,16 @@
 @media screen and (max-width: 765px) {
     
 #portrait{
-    width: 40vw;
+    width: 80vw;
 
 }
 #chef-portrait {
-    width:40vw;
+    width:80vw;
+}
+
+#one {
+    height: 100vh;
+    
 }
 
 }
