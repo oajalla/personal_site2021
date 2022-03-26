@@ -1,5 +1,4 @@
 [build]
-    commandOrigin = "config"
-    publish = "/opt/build/repo/dist"
-    command = "CI = npm run build"
-    publishOrigin = "ui"
+   
+    CI = npm run build
+   
