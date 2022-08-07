@@ -3,7 +3,7 @@
 /* Portrait images animations */
 
 #portrait{
-    scale:50%;
+    
     width: 22vw;
     border-radius: 20%;
 }
@@ -28,9 +28,9 @@
     left: 0;
     right: 0;
     height: 100%;
-    width: 100%;
     opacity: 0;
     transition: .5s ease;
+    
   }
 
   .container-box:hover .overlay{
@@ -69,16 +69,23 @@
 
 @media screen and (max-width: 765px) {
     
+
+
 #portrait{
-    width: 80vw;
+    width: 60vw;
 
 }
+
 #chef-portrait {
-    width:80vw;
+    width: 60vw;
 }
 
 #one {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     
 }
 
