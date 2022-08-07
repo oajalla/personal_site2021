@@ -2,6 +2,8 @@
 
 /* Portrait images animations */
 
+
+
 #portrait{
     
     width: 22vw;
@@ -49,10 +51,7 @@
   }
 
 
-
   /* Portrait images mobile  */
-
-  
 
 
 @media screen and (max-width: 1024px){
@@ -83,10 +82,13 @@
 #one {
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-
-    
 }
 
+}
+
+/* button appearance */
+
+#email-button {
+    text-decoration: none;
 }

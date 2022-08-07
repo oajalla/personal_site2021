@@ -3512,6 +3512,7 @@ input, select, textarea {
 							#header nav > ul > li > a {
 								padding: 0 0 0 1.5em;
 							}
+							
 
 						}
 
@@ -3675,7 +3676,7 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
-				
+				height: 100vmax;
 				min-height: 0;
 			}
 
